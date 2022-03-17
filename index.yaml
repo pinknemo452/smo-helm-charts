@@ -1,0 +1,494 @@
+apiVersion: v1
+entries:
+  aaf:
+  - apiVersion: v1
+    created: "2022-03-17T12:48:31.817601865Z"
+    description: ONAP Application Authorization Framework
+    digest: sha256:dab26df3faab598d709a5e89ff3fac65fa7d6150857a3a7e3a5e947dbff81d87
+    name: aaf
+    urls:
+    - aaf-6.0.0.tgz
+    version: 6.0.0
+  aai:
+  - apiVersion: v1
+    created: "2022-03-17T12:48:23.954033318Z"
+    description: ONAP Active and Available Inventory
+    digest: sha256:9ea306e4c33ecd560621e00214e0d58723eeda2c5a42836ea58fd1c9598e9e3d
+    name: aai
+    urls:
+    - aai-6.0.0.tgz
+    version: 6.0.0
+  appc:
+  - apiVersion: v1
+    created: "2022-03-17T12:48:41.720885945Z"
+    description: Application Controller
+    digest: sha256:43325438d085416ef42d0db1dff938223fc0dfe748ff65ca7302fab36798c6ae
+    name: appc
+    urls:
+    - appc-6.0.0.tgz
+    version: 6.0.0
+  cassandra:
+  - apiVersion: v1
+    created: "2022-03-17T12:47:09.086209058Z"
+    description: ONAP cassandra
+    digest: sha256:914964379b713126dbf0b720638d31d983f3e49af17891e94a63f742e6db0cab
+    name: cassandra
+    urls:
+    - cassandra-6.0.0.tgz
+    version: 6.0.0
+  cds:
+  - apiVersion: v1
+    created: "2022-03-17T12:48:49.87092637Z"
+    description: ONAP Controller Design Studio (CDS)
+    digest: sha256:b06070ad669a25205d33470a0bfc8b0f123cbc466adb09ab052cdf2c5072db09
+    name: cds
+    urls:
+    - cds-6.0.0.tgz
+    version: 6.0.0
+  certInitializer:
+  - apiVersion: v1
+    created: "2022-03-17T12:47:14.134184754Z"
+    description: Template used to obtain certificates in onap
+    digest: sha256:251522308e4cf19029ea90db70bb56cc763d817473eb9269401aa9bc11c070aa
+    name: certInitializer
+    urls:
+    - certInitializer-6.0.0.tgz
+    version: 6.0.0
+  clamp:
+  - apiVersion: v1
+    created: "2022-03-17T12:48:56.423409939Z"
+    description: ONAP Clamp
+    digest: sha256:87713f8be2b6a36b52e9b3cfed984d2a84e437f3c564bb931a0c15870241e812
+    name: clamp
+    urls:
+    - clamp-6.0.0.tgz
+    version: 6.0.0
+  cli:
+  - apiVersion: v1
+    created: "2022-03-17T12:49:02.989091914Z"
+    description: ONAP Command Line Interface
+    digest: sha256:cd7a6d8ec8824d7340d8e632dd5bc110dd7feedd7fbba25f0b299bac5acc646a
+    name: cli
+    urls:
+    - cli-6.0.0.tgz
+    version: 6.0.0
+  common:
+  - apiVersion: v1
+    created: "2022-03-17T12:47:04.028270747Z"
+    description: Common templates for inclusion in other charts
+    digest: sha256:67ce543f43a950d49212509802dc288a7467f46e4bdb92c00e5bb1eb235aef16
+    name: common
+    urls:
+    - common-6.0.0.tgz
+    version: 6.0.0
+  consul:
+  - apiVersion: v1
+    created: "2022-03-17T12:49:09.655155682Z"
+    description: ONAP Consul Agent
+    digest: sha256:f8358d6959cc33d4c746f42ab815a9a150555a0b5958ca50e6b3c7e6ded94a50
+    name: consul
+    urls:
+    - consul-6.0.0.tgz
+    version: 6.0.0
+  contrib:
+  - apiVersion: v1
+    created: "2022-03-17T12:49:48.528605105Z"
+    description: ONAP optional tools
+    digest: sha256:5ca05cdd35539229abd2cf4c40c4daf5976031951d5af2f6c38b3903b38f5bc4
+    name: contrib
+    urls:
+    - contrib-6.0.0.tgz
+    version: 6.0.0
+  dcaegen2:
+  - apiVersion: v1
+    created: "2022-03-17T12:51:11.070250177Z"
+    description: ONAP DCAE Gen2
+    digest: sha256:462e53798427917aa3c7afcbb2e01f194e2ac7e7c86c54d7aaaa5e3617b86377
+    name: dcaegen2
+    urls:
+    - dcaegen2-6.0.0.tgz
+    version: 6.0.0
+  dcaemod:
+  - apiVersion: v1
+    created: "2022-03-17T12:51:59.641117634Z"
+    description: ONAP DCAE MOD
+    digest: sha256:e8705fc5ae8fc9b72d28d9c17b46392ea83789f593c05dcfd8ff99f78b3e6811
+    name: dcaemod
+    urls:
+    - dcaemod-6.0.0.tgz
+    version: 6.0.0
+  dgbuilder:
+  - apiVersion: v1
+    created: "2022-03-17T12:47:19.405022042Z"
+    description: D.G. Builder application
+    digest: sha256:8a0cc6101107b6acb6b99d57374c237b505fe07dab54c63ef707a85f31a63410
+    name: dgbuilder
+    urls:
+    - dgbuilder-6.0.0.tgz
+    version: 6.0.0
+  dmaap:
+  - apiVersion: v1
+    created: "2022-03-17T12:52:41.179072624Z"
+    description: ONAP DMaaP components
+    digest: sha256:fddf653217c2bbf52a56e246c7b81d16df5a042e0e9ce2a0cf686732c3748d8c
+    name: dmaap
+    urls:
+    - dmaap-6.0.0.tgz
+    version: 6.0.0
+  dmaap-listener:
+  - apiVersion: v1
+    created: "2022-03-17T12:54:55.397161138Z"
+    description: SDNC DMaaP Listener
+    digest: sha256:0b8bb2f787f0c561f90170923d6fb374b1284c06a2cce032e4657e62ff3aa4ab
+    name: dmaap-listener
+    urls:
+    - dmaap-listener-6.0.0.tgz
+    version: 6.0.0
+  elasticsearch:
+  - apiVersion: v1
+    created: "2022-03-17T12:47:24.782667648Z"
+    description: ONAP elasticsearch
+    digest: sha256:c9590b153b328c589901509e530066a2e9c9889b7e86ceb362bab88ad9d691f5
+    name: elasticsearch
+    urls:
+    - elasticsearch-6.0.0.tgz
+    version: 6.0.0
+  esr:
+  - apiVersion: v1
+    created: "2022-03-17T12:52:47.819245846Z"
+    description: ONAP External System Register
+    digest: sha256:864b595eb171041d8700fad933cca4e071c60db4d0a29ea9bbc7898973110e90
+    name: esr
+    urls:
+    - esr-6.0.0.tgz
+    version: 6.0.0
+  etcd:
+  - apiVersion: v1
+    appVersion: 2.2.5
+    created: "2022-03-17T12:47:29.769046607Z"
+    description: Distributed reliable key-value store for the most critical data of
+      a distributed system.
+    digest: sha256:5114cca6bc383541ed628001b44ddcafaa8ea15b40603d3c0b7aa962e4854c3f
+    home: https://github.com/coreos/etcd
+    name: etcd
+    sources:
+    - https://github.com/coreos/etcd
+    urls:
+    - etcd-6.0.0.tgz
+    version: 6.0.0
+  log:
+  - apiVersion: v1
+    created: "2022-03-17T12:52:54.855352192Z"
+    description: ONAP Logging ElasticStack
+    digest: sha256:4a4d8dcc59c883e4d1eb762e36a0a7ca0806b034a4921b354c89c14bda96850b
+    name: log
+    urls:
+    - log-6.0.0.tgz
+    version: 6.0.0
+  mariadb-galera:
+  - apiVersion: v1
+    created: "2022-03-17T12:47:35.253915136Z"
+    description: Chart for MariaDB Galera cluster
+    digest: sha256:e1e7bff2a5dac657ca04726d23839e62f0866257d84f568ec5daa0566a938f58
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    - sql
+    - galera
+    - cluster
+    name: mariadb-galera
+    urls:
+    - mariadb-galera-6.0.0.tgz
+    version: 6.0.0
+  mariadb-init:
+  - apiVersion: v1
+    created: "2022-03-17T12:47:40.610092395Z"
+    description: Chart for MariaDB Galera init job
+    digest: sha256:460c89b78639a92b72bd39b6fb2f7b7981c35b9280d6a4087151c6e571c38872
+    name: mariadb-init
+    urls:
+    - mariadb-init-6.0.0.tgz
+    version: 6.0.0
+  modeling:
+  - apiVersion: v1
+    created: "2022-03-17T12:53:09.877204904Z"
+    description: ONAP Modeling (Modeling)
+    digest: sha256:91b819185b21d4a28205c69dff733e0c62a22689202b0a4f4493c236448be789
+    name: modeling
+    urls:
+    - modeling-6.0.0.tgz
+    version: 6.0.0
+  mongo:
+  - apiVersion: v1
+    created: "2022-03-17T12:47:45.595171812Z"
+    description: MongoDB Server
+    digest: sha256:566df33083aa37ca104000d2db3c3ef15d039bab14f964dd5672b2d1f048ea0e
+    name: mongo
+    urls:
+    - mongo-6.0.0.tgz
+    version: 6.0.0
+  msb:
+  - apiVersion: v1
+    created: "2022-03-17T12:53:16.461390218Z"
+    description: ONAP MicroServices Bus
+    digest: sha256:fc7589c225f9fc0cc2d8b7593db9bdac4ebb2dd8967ad6be109213f0c34526a0
+    name: msb
+    urls:
+    - msb-6.0.0.tgz
+    version: 6.0.0
+  multicloud:
+  - apiVersion: v1
+    created: "2022-03-17T12:53:35.693809318Z"
+    description: ONAP multicloud broker
+    digest: sha256:59e5f84f8882ff8b0689021e3bb79159f989f27e6d4bdb142fcdac94d0280670
+    name: multicloud
+    urls:
+    - multicloud-6.0.0.tgz
+    version: 6.0.0
+  music:
+  - apiVersion: v1
+    created: "2022-03-17T12:47:50.59597113Z"
+    description: MUSIC - Multi-site State Coordination Service
+    digest: sha256:cb88e5ec7ed564cb10163b5a83ddf13b8cacc1ca54de0b529769a6b341dbdd9a
+    name: music
+    urls:
+    - music-6.0.0.tgz
+    version: 6.0.0
+  nbi:
+  - apiVersion: v1
+    created: "2022-03-17T12:53:48.931359982Z"
+    description: ONAP Northbound Interface
+    digest: sha256:8bbeef2c84cb99048486e84983b952ecc14742efef5a84db4225a995afa62a46
+    name: nbi
+    urls:
+    - nbi-6.0.0.tgz
+    version: 6.0.0
+  network-name-gen:
+  - apiVersion: v1
+    created: "2022-03-17T12:47:57.368017999Z"
+    description: Name Generation Micro Service
+    digest: sha256:f8a9bad905888e8889919d1ba18aebe776ea29e699204271c7784a3118265e3f
+    name: network-name-gen
+    urls:
+    - network-name-gen-6.0.0.tgz
+    version: 6.0.0
+  onap:
+  - apiVersion: v1
+    appVersion: El Alto
+    created: "2022-03-17T12:57:36.468935539Z"
+    description: Open Network Automation Platform (ONAP)
+    digest: sha256:df3ccc890d8f5bba9fa93301beaf3754d400c4fe3d521ab8615895fb70951270
+    home: https://www.onap.org/
+    icon: https://wiki.onap.org/download/thumbnails/1015829/onap_704x271%20copy.png?version=1&modificationDate=1488326334000&api=v2
+    kubeVersion: '>=1.11.5-0'
+    name: onap
+    sources:
+    - https://gerrit.onap.org/r/#/admin/projects/
+    urls:
+    - onap-6.0.0.tgz
+    version: 6.0.0
+  - apiVersion: v1
+    appVersion: El Alto
+    created: "2022-03-17T12:58:37.26580351Z"
+    description: Open Network Automation Platform (ONAP)
+    digest: sha256:7e76ee731d162bcc7573cca3b2dda69aca874957819c4bdf544b061d4c24286e
+    home: https://www.onap.org/
+    icon: https://wiki.onap.org/download/thumbnails/1015829/onap_704x271%20copy.png?version=1&modificationDate=1488326334000&api=v2
+    kubeVersion: '>=1.11.5-0'
+    name: onap
+    sources:
+    - https://gerrit.onap.org/r/#/admin/projects/
+    urls:
+    - onap-6.0.0.tgz
+    version: 6.0.0
+  oof:
+  - apiVersion: v1
+    created: "2022-03-17T12:54:12.30972703Z"
+    description: ONAP Optimization Framework
+    digest: sha256:59decba23df5befab0250080086ee6c0d36efe5c2c37806c86613b3abd6b955e
+    name: oof
+    urls:
+    - oof-6.0.0.tgz
+    version: 6.0.0
+  pnda:
+  - apiVersion: v1
+    created: "2022-03-17T12:54:18.810544726Z"
+    description: ONAP DCAE PNDA
+    digest: sha256:bc2121c97489af9bc2a74fc9fda73607cf429944760c61fa9c55f2585ee21b7f
+    name: pnda
+    urls:
+    - pnda-6.0.0.tgz
+    version: 6.0.0
+  policy:
+  - apiVersion: v1
+    created: "2022-03-17T12:54:27.04880862Z"
+    description: ONAP Policy Administration Point
+    digest: sha256:a7d82d488e79238ea3281e55941217e11d92e28b58d8e633c668a1ad37b285f9
+    name: policy
+    urls:
+    - policy-6.0.0.tgz
+    version: 6.0.0
+  pomba:
+  - apiVersion: v1
+    created: "2022-03-17T12:54:33.736559227Z"
+    description: ONAP Post Orchestration Model Based Audit
+    digest: sha256:7f361005ae5b127f844c253a957cfcb0da7b9e7dc01322e62f12d1c361f7f67c
+    name: pomba
+    urls:
+    - pomba-6.0.0.tgz
+    version: 6.0.0
+  portal:
+  - apiVersion: v1
+    created: "2022-03-17T12:54:40.319750981Z"
+    description: ONAP Web Portal
+    digest: sha256:41a1606ffde7424bd3ea7db0b3bdd8a9058000b092914aee2de0fe2023b50ade
+    name: portal
+    urls:
+    - portal-6.0.0.tgz
+    version: 6.0.0
+  postgres:
+  - apiVersion: v1
+    created: "2022-03-17T12:48:02.98365369Z"
+    description: ONAP Postgres Server
+    digest: sha256:9e7e19479f30be8ee1aa7469787e10d0866a219ff2552fb1774969b7eed254fa
+    name: postgres
+    urls:
+    - postgres-6.0.0.tgz
+    version: 6.0.0
+  readinessCheck:
+  - apiVersion: v1
+    created: "2022-03-17T12:48:07.963172102Z"
+    description: Template used to wait for other deployment/sts/jobs in onap
+    digest: sha256:2fe71f0cd1db04e3d4e514721f17c4a047e0e69e9454807508501d542b98678e
+    name: readinessCheck
+    urls:
+    - readinessCheck-6.0.0.tgz
+    version: 6.0.0
+  robot:
+  - apiVersion: v1
+    created: "2022-03-17T12:48:15.668776476Z"
+    description: A helm Chart for kubernetes-ONAP Robot
+    digest: sha256:e45733ba7f15fba2998bf5a54ac29dce4ddeb4b87dd9825c46ffe4d81adec9ce
+    name: robot
+    urls:
+    - robot-6.0.0.tgz
+    version: 6.0.0
+  sdc:
+  - apiVersion: v1
+    created: "2022-03-17T12:54:48.6376783Z"
+    description: Service Design and Creation Umbrella Helm charts
+    digest: sha256:b533196dc3e3a4d8ad5409f10e6aedb368b676069541e5c201eb82667f7da7ef
+    name: sdc
+    urls:
+    - sdc-6.0.0.tgz
+    version: 6.0.0
+  sdnc:
+  - apiVersion: v1
+    created: "2022-03-17T12:55:48.232712568Z"
+    description: SDN Controller
+    digest: sha256:14e5b9828f99152c7bb7236abfef4fe4501845638e87474e2eac11b6775ace29
+    name: sdnc
+    urls:
+    - sdnc-6.0.0.tgz
+    version: 6.0.0
+  sdnc-ansible-server:
+  - apiVersion: v1
+    created: "2022-03-17T12:55:02.256789439Z"
+    description: SDN-C Ansible Server
+    digest: sha256:f22fc3d10c9519895c3eccb162c98517c13a22b64622e6df15d490e466a2f0d6
+    name: sdnc-ansible-server
+    urls:
+    - sdnc-ansible-server-6.0.0.tgz
+    version: 6.0.0
+  sdnc-portal:
+  - apiVersion: v1
+    created: "2022-03-17T12:55:09.159007306Z"
+    description: SDN-C Admin Portal
+    digest: sha256:a25e24c9cefb05066bbaf35789621d7fa7709baa4c6c3a9f3981270491f0d0cd
+    name: sdnc-portal
+    urls:
+    - sdnc-portal-6.0.0.tgz
+    version: 6.0.0
+  sdnc-prom:
+  - apiVersion: v1
+    created: "2022-03-17T12:55:15.83662786Z"
+    description: ONAP SDNC Policy Driven Ownership Management
+    digest: sha256:f3dfff0b00a26adbfecf8502c3137f5041afec8c53173af8eacf245fb808718c
+    name: sdnc-prom
+    urls:
+    - sdnc-prom-6.0.0.tgz
+    version: 6.0.0
+  sdnc-web:
+  - apiVersion: v1
+    created: "2022-03-17T12:55:22.795065303Z"
+    description: SDN-C Web Server
+    digest: sha256:ad652a5515ef2dfd2cd14035313a04620ae9f28868c0dbfa4a1d00f5e8af2d3a
+    name: sdnc-web
+    urls:
+    - sdnc-web-6.0.0.tgz
+    version: 6.0.0
+  sniro-emulator:
+  - apiVersion: v1
+    created: "2022-03-17T12:55:54.831374814Z"
+    description: ONAP Mock Sniro Emulator
+    digest: sha256:36a5494e917496e73b7c5ea3732f6a43df70a6e1c5ca8893e81105f4b566de6d
+    name: sniro-emulator
+    urls:
+    - sniro-emulator-6.0.0.tgz
+    version: 6.0.0
+  so:
+  - apiVersion: v1
+    created: "2022-03-17T12:56:03.147879316Z"
+    description: ONAP Service Orchestrator
+    digest: sha256:8489c989705293e5ca93449eb5444357c0feea556f83ee1ee0e268bf67a6e700
+    name: so
+    urls:
+    - so-6.0.0.tgz
+    version: 6.0.0
+  ueb-listener:
+  - apiVersion: v1
+    created: "2022-03-17T12:55:29.638717009Z"
+    description: SDNC UEB Listener
+    digest: sha256:d1bf7bc38de6825541026a6a4e0cb264692a5fe451153387d971c5da87225215
+    name: ueb-listener
+    urls:
+    - ueb-listener-6.0.0.tgz
+    version: 6.0.0
+  uui:
+  - apiVersion: v1
+    created: "2022-03-17T12:56:09.830701036Z"
+    description: ONAP uui
+    digest: sha256:ca2ddcf6abbc69bde71e65a02d928688f6eb805b8c5b901e51d87b70e8e7c551
+    name: uui
+    urls:
+    - uui-6.0.0.tgz
+    version: 6.0.0
+  vfc:
+  - apiVersion: v1
+    created: "2022-03-17T12:56:18.44330892Z"
+    description: ONAP Virtual Function Controller (VF-C)
+    digest: sha256:f42eecd974e47b8d06c0689ecbbc569264d559a71332e392ba77ba53f2314ad8
+    name: vfc
+    urls:
+    - vfc-6.0.0.tgz
+    version: 6.0.0
+  vid:
+  - apiVersion: v1
+    created: "2022-03-17T12:56:26.857817559Z"
+    description: ONAP Virtual Infrastructure Deployment
+    digest: sha256:cd6e80367b06171e0a5857889e2bf56b9fc9246004a31b5ee280e1abe68ff927
+    name: vid
+    urls:
+    - vid-6.0.0.tgz
+    version: 6.0.0
+  vnfsdk:
+  - apiVersion: v1
+    created: "2022-03-17T12:56:35.137466725Z"
+    description: ONAP VNF SDK
+    digest: sha256:8f2ce0f530d75e0c4adf9bff7b90443e23af3c8ef038552a8989e5a944622081
+    name: vnfsdk
+    urls:
+    - vnfsdk-6.0.0.tgz
+    version: 6.0.0
+generated: "2022-03-17T12:46:33.136823587Z"
